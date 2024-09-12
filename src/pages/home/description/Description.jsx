@@ -2,7 +2,9 @@ import React from 'react'
 
 const Description = () => {
   return (
-    <div>Описание</div>
+    <div>
+      <h1 style={{color: 'red'}}>Описание</h1>
+    </div>
   )
 }
 

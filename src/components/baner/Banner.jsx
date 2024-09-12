@@ -1,6 +1,7 @@
 import { Baner } from "./baner/Baner"
 import Modal from "./modal/Modal"
 import './baner/Baner.css'
+import { NavLink } from "react-router-dom"
 
 const Banner = () => {
 
@@ -15,6 +16,9 @@ const Banner = () => {
         <div className="modal">
           <Modal />
         </div>
+        <NavLink to='/description'>
+          <button>Описание</button>
+        </NavLink>
 
       </div>
     </div>
