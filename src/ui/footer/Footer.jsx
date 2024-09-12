@@ -2,7 +2,7 @@ import { FootLogo } from "./footLogo/FootLogo"
 
 export const Footer = () => {
   return (
-    <div>
+    <div className="container">
         <FootLogo />
     </div>
   )

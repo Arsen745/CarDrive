@@ -1,0 +1,10 @@
+.internet-foot {
+    margin-left: 413px;
+}
+
+.svg-internet {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 20px;
+}

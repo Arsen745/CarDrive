@@ -1,0 +1,18 @@
+.nav .active {
+    button {
+    color: #006AFF;
+    } 
+}
+.nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 100%;
+    margin-left: 105px;
+    gap: 15px;
+    h1 {
+        cursor: pointer;
+    }
+}
