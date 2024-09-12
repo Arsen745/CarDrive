@@ -4,13 +4,13 @@ import './Footer.css'
 export const FootLogo = () => {
     return (
         <div>
-            <div className='foot-logo'>
-                <img src={LogoFoot} alt="" />
-                <h1>AUTO</h1>
-                <div>
-                    <p className='foot-prgf'>Мы предлагаем лучшие автомобили самых известных мировых брендов.</p>
-                </div>
+        <div className="footLogo">
+            <img src={LogoFoot} alt="" />
+            <div className="auto">
+                <h2>AUTO</h2>
             </div>
         </div>
+
+    </div>
     )
 }

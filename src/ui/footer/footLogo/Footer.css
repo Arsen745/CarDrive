@@ -1,15 +1,18 @@
-.foot-logo {
-    /* display: flex; */
-    border: 1px solid red;
-    width: 318px;
-    h1{
-        border: 1px solid red;
-        font-size: 26.67px;
-        font-weight: 500;
-        width: 69px;
+.footLogo {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+    img {
+        width: 35px;
+        height: 34px;
     }
-}
+    .auto {
+        h2 {
+            font-size: 27px;
+            font-weight: 500;
+            color: #F1F2F3;
+            font-family: "Exo", sans-serif;
 
-.foot-prgf {
-    width: 328px;
+        }
+    }
 }
