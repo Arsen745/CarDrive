@@ -1,4 +1,3 @@
-import React from 'react'
 import LogoS from '../../../assets/svg/Logo.svg'
 import './Logo.css'
 

@@ -1,0 +1,19 @@
+.baner-container {
+    position: relative;
+}
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+.container-baner {
+    position: absolute;
+    top: 0;   
+    width: 100%;  /* растягиваем на всю ширину экрана */
+    max-width: 1600px;  /* максимальная ширина */
+    z-index: -10;
+    margin: auto;
+}
