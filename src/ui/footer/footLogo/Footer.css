@@ -1,0 +1,15 @@
+.foot-logo {
+    /* display: flex; */
+    border: 1px solid red;
+    width: 318px;
+    h1{
+        border: 1px solid red;
+        font-size: 26.67px;
+        font-weight: 500;
+        width: 69px;
+    }
+}
+
+.foot-prgf {
+    width: 328px;
+}
