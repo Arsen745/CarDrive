@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 .logo {
-    border: 1px solid red;
     display: flex;
     gap: 7px;
     align-items: center;
@@ -12,7 +11,7 @@
         h2 {
             font-size: 27px;
             font-weight: 500;
-            color: black;
+            color: #F1F2F3;
             font-family: "Exo", sans-serif;
 
         }

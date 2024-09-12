@@ -1,0 +1,12 @@
+.navlink .active {
+    button {
+    color: #006AFF;
+    }
+
+    
+}
+.navlink {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}

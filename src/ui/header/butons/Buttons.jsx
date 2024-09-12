@@ -1,6 +1,8 @@
 import React from 'react';
 import Button from './button/Button';
 import { NavLink } from 'react-router-dom';
+import './Buttons.css';
+import ButtonRegister from './button-register/ButtonRegister';
 
 const Buttons = () => {
     const text = [
@@ -13,10 +15,18 @@ const Buttons = () => {
     return (
         <div className="navlink">
             {text.map((el, index) => (
-                <NavLink to={el.to}>
-                    <Button key={index} name={el.name} />
+                <NavLink
+                    key={index}
+                    to={el.to}
+                    className={({ isActive }) => (isActive ? 'active' : '')}
+                >
+                    <Button name={el.name} />
                 </NavLink>
             ))}
+            <NavLink to='/register'>
+                <ButtonRegister />
+            </NavLink>
+
         </div>
     );
 }
