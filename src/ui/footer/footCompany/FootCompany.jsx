@@ -19,7 +19,7 @@ export const FootCompany = () => {
                 <NavLink
                     key={index}
                     to={el.to}
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+
                 >
                     <Button name={el.name} />
                 </NavLink>

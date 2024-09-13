@@ -1,5 +1,9 @@
 .internet-foot {
     margin-left: 413px;
+    h1 {
+        font-weight: 400;
+        font-size: 18px;
+    }
 }
 
 .svg-internet {

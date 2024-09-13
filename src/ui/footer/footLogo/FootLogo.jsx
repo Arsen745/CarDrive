@@ -6,6 +6,9 @@ import './Footer.css'
 export const FootLogo = () => {
     return (
         <div className='foot-container'>
+            <div className="light1"></div>
+            <div className="light2"></div>
+
             <div className="foot-flex">
                 <div className="footLogo">
                     <img src={LogoFoot} alt="" />
