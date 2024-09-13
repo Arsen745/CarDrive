@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom'
 import Banner from '../../../components/baner/Banner'
 import { Footer } from '../../../ui/footer/Footer'
 import Header from '../../../ui/header/Header'
+import { Section } from '../../../ui/section/Section'
 
 
 const HomePage = () => {
@@ -9,6 +9,7 @@ const HomePage = () => {
     <div className='container'>
         <Header/>
         <Banner/>
+        <Section />
         <Footer />
     </div>
   )

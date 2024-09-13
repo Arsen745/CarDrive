@@ -1,8 +1,3 @@
-.nav .active {
-    button {
-    color: #006AFF;
-    } 
-}
 .nav {
     display: flex;
     flex-direction: column;
