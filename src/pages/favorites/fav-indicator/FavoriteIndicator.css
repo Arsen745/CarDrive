@@ -1,0 +1,20 @@
+
+.fav-indicator .indicator {
+    width: 8px;
+    height: 8px;
+    background-color: #404040;
+    border-radius: 64px;
+    cursor: pointer;
+    color: blue;
+    &.active {
+        background-color: #4177DC;
+        height: 8px;
+    }
+}
+
+.fav-indicator {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 26px;
+}

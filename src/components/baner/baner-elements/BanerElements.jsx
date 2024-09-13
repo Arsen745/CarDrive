@@ -1,4 +1,3 @@
-import React from 'react'
 import './BanerElements.css'
 import ElectricCar from '../../../assets/svg/ElecrticCar.svg'
 import Hybrid from '../../../assets/svg/mdi_gasoline.svg'

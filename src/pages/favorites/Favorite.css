@@ -1,0 +1,21 @@
+/* .favorite-text {
+    text-align: center;
+    margin-top: 66px;
+    margin-bottom: 26px;
+    h1 {
+        margin-bottom: 36px;
+    }
+}
+
+.fav-indicator {
+    width: 15px;
+    height: 15px;
+    background: #404040;
+    border-radius: 64px;
+    cursor: pointer;
+    color: blue;
+    &.active {
+      background-color: #4177DC;
+      height: 15px;
+    }
+} */

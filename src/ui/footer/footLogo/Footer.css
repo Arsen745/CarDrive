@@ -7,9 +7,6 @@
     position: relative; 
     background: linear-gradient(270deg,  #2d3333, #00000030, #00000030, #000, #2d3333);
     overflow: hidden;
-    
-
-    
 }
 .light1{
     width: 500px;
@@ -23,9 +20,6 @@
     overflow: hidden;
     filter: blur(50px); 
     border: 1px solid red;
-
-
-
 }
 .light2{
     width: 400px;
@@ -39,9 +33,6 @@
     filter: blur(50px); 
     border: 1px solid red;
     right: -120px;
-
-
-
 }
 
 
