@@ -57,7 +57,6 @@ const rout = [
 },
 
 ]
-
 const AppRouter = () => {
   return (
     <Routes>
