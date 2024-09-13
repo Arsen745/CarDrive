@@ -1,4 +1,5 @@
 import Banner from '../../../components/baner/Banner'
+import { Card } from '../../../ui/cardSection/card/Card'
 import { Footer } from '../../../ui/footer/Footer'
 import Header from '../../../ui/header/Header'
 import { Section } from '../../../ui/section/Section'
@@ -10,6 +11,7 @@ const HomePage = () => {
         <Header/>
         <Banner/>
         <Section />
+        <Card />
         <Footer />
     </div>
   )
