@@ -1,3 +1,4 @@
+import BanerText from "../baner-text/BanerText"
 
 export const Baner = () => {
   return (
@@ -5,6 +6,7 @@ export const Baner = () => {
       className='baner'
       style={{ backgroundImage: `url('https://www.fonstola.ru/images/201410/fonstola.ru_149391.jpg')`, height: 700, backgroundRepeat: 'no-repeat' , backgroundPosition: 'center' }}
     >
+      <BanerText/>
     </div>
   )
 }

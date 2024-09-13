@@ -1,6 +1,10 @@
 .foot-container {
     display: flex;
     padding-left: 120px;
+<<<<<<< HEAD
+=======
+    margin-top: 800px;
+>>>>>>> 077a48c6c5bb716c8b9360d583944e5b450dc180
     border: 1px solid red;   
     padding-top: 84px;
     padding-bottom: 150px;
