@@ -1,9 +1,14 @@
-import React from 'react'
+import Buttons from "../../../components/buttonshome/Buttons"
+import { Footer } from "../../../ui/footer/Footer"
+import Header from "../../../ui/header/Header"
 
 const Description = () => {
   return (
     <div>
-      <h1 style={{color: 'red'}}>Описание</h1>
+      <Header/>
+      <Buttons/>
+      <h1>Баяман</h1>
+      <Footer/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from '../../ui/header/Header'
+import React from 'react';
+import Header from '../../ui/header/Header';
 
 const About = () => {
   return (
@@ -7,7 +7,7 @@ const About = () => {
       <Header />
       <h1>О нас</h1>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;

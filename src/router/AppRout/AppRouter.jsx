@@ -3,10 +3,9 @@ import About from '../../pages/about/About'
 import Services from '../../pages/services/Services'
 import Favorite from '../../pages/favorites/Favorite'
 import Register from '../../pages/register/Register'
-import HomePage1 from '../../pages/home/home/HomePage'
+import HomePage from '../../pages/home/home/HomePage'
 import Description from '../../pages/home/description/Description'
 import Characteristics from '../../pages/home/characteristics/Characteristics'
-import HomePage from '../../pages/home/home/HomePage'
 
 const rout = [
   {
@@ -37,7 +36,7 @@ const rout = [
   },
   {
     path: '/home',
-    component: <HomePage1/>,
+    component: <HomePage/>,
     key: 'home'
 },
 {

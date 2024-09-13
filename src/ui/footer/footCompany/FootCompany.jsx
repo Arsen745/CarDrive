@@ -1,18 +1,21 @@
-import Button from './button/Button';
-import { NavLink } from 'react-router-dom';
-import './Buttons.css';
-import ButtonRegister from './button-register/ButtonRegister';
+import { NavLink } from "react-router-dom";
+import Button from "../../header/butons/button/Button";
+import './FooterCompany.css'
 
-const Buttons = () => {
+export const FootCompany = () => {
     const text = [
         { name: 'Главная', to: '/' },
         { name: 'О нас', to: '/about' },
         { name: 'Услуги', to: '/services' },
         { name: 'Избранное', to: '/favorite' }
     ];
+
+    const sortedText = text.sort((a, b) => a.name.localeCompare(b.name));
+
     return (
-        <div className="navlink">
-            {text.map((el, index) => (
+        <div className="nav">
+            <h1>Компания</h1>
+            {sortedText.map((el, index) => (
                 <NavLink
                     key={index}
                     to={el.to}
@@ -21,14 +24,8 @@ const Buttons = () => {
                     <Button name={el.name} />
                 </NavLink>
             ))}
-            <NavLink to='/register'>
-                <ButtonRegister />
-            </NavLink>  
-            <NavLink to='/description'>
-                Описание
-            </NavLink>
+
+
         </div>
     );
 }
-
-export default Buttons;

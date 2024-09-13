@@ -1,0 +1,31 @@
+.buttons {
+    border: none;
+    border-bottom: 4px solid #4177DC;
+    padding: 0px 30px;
+    display: flex;
+    gap: 70px;
+    .active {
+        button {
+            padding: 5px 10px;
+            border-radius: 8px 8px 0px 0px;
+            color: white;
+            background-color: #4177DC;
+            transition: all 0.3s;
+        }
+        
+    }
+    button {
+        padding: 5px 10px;
+        border-radius: 8px 8px 0px 0px;
+        transition: all 0.3s;
+
+    }
+    button:hover {
+        padding: 5px 10px;
+        border-radius: 8px 8px 0px 0px;
+        color: white;
+        background-color: #4177DC;
+        transition: all 0.3s;
+
+    }
+}

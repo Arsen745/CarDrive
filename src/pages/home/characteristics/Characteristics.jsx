@@ -1,8 +1,17 @@
 import React from 'react'
+import Header from '../../../ui/header/Header'
+import { Footer } from '../../../ui/footer/Footer'
+import Buttons from '../../../components/buttonshome/Buttons'
 
 const Characteristics = () => {
   return (
-    <div>Характеристики</div>
+    <div>
+      <Header/>
+      <Buttons/>
+      <h1>Махабат</h1>
+      
+      <Footer/>
+    </div>
   )
 }
 

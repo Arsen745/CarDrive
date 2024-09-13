@@ -1,6 +1,8 @@
+import { Outlet } from 'react-router-dom'
 import Banner from '../../../components/baner/Banner'
 import { Footer } from '../../../ui/footer/Footer'
 import Header from '../../../ui/header/Header'
+
 
 const HomePage = () => {
   return (

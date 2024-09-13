@@ -1,9 +1,7 @@
 .navlink .active {
     button {
     color: #006AFF;
-    }
-
-    
+    } 
 }
 .navlink {
     display: flex;
