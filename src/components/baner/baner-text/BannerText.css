@@ -1,0 +1,25 @@
+.text-banner {
+    position: relative;
+    z-index: 1000;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+
+    h1 {
+        font-size: 48px;
+        font-weight: 500;
+        color:#FFFFFF;
+
+    }
+    h5 {
+        font-size: 24px;
+        font-weight: 400;
+        color: #fff;
+    }
+
+
+
+}

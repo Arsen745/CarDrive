@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.baner-elements {
+    height: 100px;
+    position: relative;
+    z-index: 1000;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 100px;
+    background-color: black;
+    .start {
+        border: 2px solid #02DB8A;
+        padding: 10px;
+        border-radius: 50%;
+        width: 90px;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0px 0px 16px 0px #02DB8A;
+
+
+        .start2 {
+            border: 2px solid #099260;
+            border-radius: 50%;
+            padding: 25px 24px;
+            width: 70px;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h4 {
+                font-size: 14px;
+                font-weight: 400;
+                font-family: "Exo", sans-serif;
+                line-height: 20px;
+                text-transform: uppercase;
+
+
+            }
+        }
+    }
+    .electric-car {
+        display: flex;
+        gap: 7px;
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+    .hybrid {
+        display: flex;
+        gap: 7px;
+        h3 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+    }
+
+
+}
