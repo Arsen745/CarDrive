@@ -1,0 +1,24 @@
+.main{
+    display:flex;
+  margin-top: 48px;
+  margin-left: 30px;
+ 
+  
+}
+
+.images{
+    width: 24px;
+    height: 18px;   
+}
+
+.inform{
+margin-top: 350px;
+display: flex;
+margin-right: 10rem;
+ }
+
+
+.company-details{
+margin-left: 100px;
+    
+}

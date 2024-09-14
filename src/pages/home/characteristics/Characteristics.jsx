@@ -2,13 +2,21 @@ import React from 'react'
 import Header from '../../../ui/header/Header'
 import { Footer } from '../../../ui/footer/Footer'
 import Buttons from '../../../components/buttonshome/Buttons'
+import AutoImg from '../../../components/autoImg/AutoImg'
+import InforAuto from '../../../components/InforAuto/InforAuto'
+import'./Characteristics.css';
+
 
 const Characteristics = () => {
   return (
-    <div>
+    <div className='mashina'> 
       <Header/>
       <Buttons/>
-      <h1>Махабат</h1>
+      <h1 className='auto'> Audi A8 - технические характеристики</h1>
+     <div className='audi'>
+       <AutoImg/>
+       <InforAuto/>
+     </div>
       
       <Footer/>
     </div>
