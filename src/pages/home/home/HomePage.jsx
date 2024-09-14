@@ -3,7 +3,7 @@ import Services from '../../../components/services/Services'
 import { Card } from '../../../ui/cardSection/card/Card'
 import { Footer } from '../../../ui/footer/Footer'
 import Header from '../../../ui/header/Header'
-import { Section } from '../../../ui/section/Section'
+import Section  from '../../../ui/section/Section'
 
 
 
@@ -14,7 +14,6 @@ const HomePage = () => {
         <Banner/>
         <Services/>
         <Section />
-        <Card />
         <Footer />
     </div>
   )
