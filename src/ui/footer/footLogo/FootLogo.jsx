@@ -20,8 +20,8 @@ export const FootLogo = () => {
                     <p className='foot-prgf'>Мы предлагаем лучшие автомобили самых известных мировых брендов.</p>
                 </div>
             </div>
-                <FootCompany />
-                <FootInternet />
+            <FootCompany />
+            <FootInternet />
         </div>
     )
 }

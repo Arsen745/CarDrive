@@ -1,0 +1,14 @@
+.people-light {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+
+.card-people {
+    width: 386px;
+    height: 310px;
+    margin-top: 48px;
+    padding: 25px;
+    background-color: #1A1C7182;
+    border-radius: 20px;
+}

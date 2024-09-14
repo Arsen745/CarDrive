@@ -1,4 +1,5 @@
 import Banner from '../../../components/baner/Banner'
+import { People } from '../../../components/people/People'
 import Services from '../../../components/services/Services'
 import { Card } from '../../../ui/cardSection/card/Card'
 import { Footer } from '../../../ui/footer/Footer'
@@ -17,6 +18,7 @@ const HomePage = () => {
         <Section />
         <Card />
         <TrustSect />
+        <People />
         <Footer />
     </div>
   )

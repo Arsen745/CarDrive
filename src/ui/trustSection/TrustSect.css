@@ -1,5 +1,4 @@
 .trust-container {
-    border: 1px solid red;
     .trust1 {
         display: flex;
         justify-content: space-between;

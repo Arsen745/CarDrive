@@ -8,7 +8,7 @@
     background: linear-gradient(270deg,  #2d3333, #00000030, #00000030, #000, #2d3333);
     overflow: hidden;
 }
-.light1{
+/* .light1{
     width: 500px;
     height: 500px;
     position: absolute;
@@ -33,7 +33,7 @@
     filter: blur(50px); 
     border: 1px solid red;
     right: -120px;
-}
+} */
 
 
 
