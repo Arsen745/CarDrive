@@ -7,7 +7,7 @@ export const Section = () => {
     <div>
         <AllAuto />
         <YourCar />
-        <Indicator />
+        <Indicator /> 
     </div>
   )
 }

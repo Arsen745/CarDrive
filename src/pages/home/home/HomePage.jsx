@@ -4,6 +4,7 @@ import { Card } from '../../../ui/cardSection/card/Card'
 import { Footer } from '../../../ui/footer/Footer'
 import Header from '../../../ui/header/Header'
 import { Section } from '../../../ui/section/Section'
+import TrustSect from '../../../ui/trustSection/TrustSect'
 
 
 
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Services/>
         <Section />
         <Card />
+        <TrustSect />
         <Footer />
     </div>
   )
