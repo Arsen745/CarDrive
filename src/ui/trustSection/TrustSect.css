@@ -1,0 +1,8 @@
+.trust-container {
+    margin-top: 200px;
+    .trust1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

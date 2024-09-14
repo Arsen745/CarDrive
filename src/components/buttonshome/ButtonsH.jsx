@@ -1,10 +1,10 @@
 import React from 'react';
-import './Buttons.css';
+import './ButtonsH.css';
 import { NavLink } from 'react-router-dom';
 
 const Buttons = () => {
   return (
-    <div className='buttons'>
+    <div className='buttons container'>
       <NavLink
         to='/description'
         className={({ isActive }) => (isActive ? 'active' : '')}

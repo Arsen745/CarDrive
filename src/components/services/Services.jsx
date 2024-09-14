@@ -26,7 +26,7 @@ const Services = () => {
         }
     ]
     return (
-        <div className='container22' style={{ backgroundImage: `url(${Logo})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
+        <div className='container22 container' style={{ backgroundImage: `url(${Logo})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
             <h1 className='texth1-service'>Наши Услуги</h1>
             <div className='cards'>
                 {text.map((el, index) => (

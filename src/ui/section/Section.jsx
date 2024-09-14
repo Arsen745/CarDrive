@@ -112,8 +112,12 @@ const Section = () => {
           ></span>
         ))}
       </div>
-    </div>
-  );
+      <div>
+        <AllAuto />
+        <YourCar />
+        <Indicator />
+      </div>
+    </div>);
 };
 
 export default Section
