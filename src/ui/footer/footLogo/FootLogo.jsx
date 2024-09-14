@@ -23,9 +23,7 @@ export const FootLogo = () => {
                     <FootCompany />
                     <FootInternet />
                 </div>
-
             </div>
-
         </div>
     )
 }   
