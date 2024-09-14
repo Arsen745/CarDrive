@@ -10,9 +10,7 @@ const Favorite = () => {
   return (
     <div>
       <Header />
-      <FavoriteText />
-      <FavoriteIndicator />      
-      <Card />
+      <Card/>
       <Footer />
     </div>
   )

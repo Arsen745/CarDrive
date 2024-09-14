@@ -4,7 +4,7 @@ import './TrustSect.css'
 
 const TrustSect = () => {
   return (
-    <div className="trust-container">
+    <div className="trust-container container">
       <div className="trust1">
         <Left/>
         <Right/>

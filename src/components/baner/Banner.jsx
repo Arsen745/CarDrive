@@ -7,7 +7,6 @@ const Banner = () => {
 
   return (
     <div className="container-baner">
-
       <div className="baner-container">
         <div className="baner">
           <Baner />
