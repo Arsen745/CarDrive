@@ -13,6 +13,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    transition: all 0.3s;
 }
 .rightbtn {
     display: flex;
@@ -22,6 +23,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    transition: all 0.3s;
 }
 
 .btn-review {
@@ -35,4 +37,9 @@
     height: 42px;
     border-radius: 10px;
     background-color: #306AD9;
+}
+.rightbtn:hover,
+.leftbtn:hover {
+    background-color: #306AD9;
+    border: none;
 }

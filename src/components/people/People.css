@@ -1,7 +1,13 @@
 .people-light {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start; 
     gap: 21px;
+    border: 1px solid red;
+    overflow-x: scroll;
+
+}
+.people-light::-webkit-scrollbar {
+    width: 0;
 }
 
 .card-people {
@@ -11,4 +17,5 @@
     padding: 25px;
     background-color: #1A1C7182;
     border-radius: 20px;
+    
 }
