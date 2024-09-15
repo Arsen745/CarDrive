@@ -17,7 +17,6 @@ const TrustSect = () => {
         <Left/>
         <Right/>
       </div>
-
     </div>
   )
 }

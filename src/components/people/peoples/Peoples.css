@@ -1,0 +1,29 @@
+.peoples {
+    text-align: center;
+    margin-top: 58px;
+    .peoples-rev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        hr {
+            width: 48px;
+            height: 0;
+        }
+
+        h1 {
+            span {
+                width: 146px;
+                height: 37px;
+                background-color: #001A72;
+            }
+        }
+    }
+
+    .date-prgf {
+        display: flex;
+        width: 873px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
