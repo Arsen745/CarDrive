@@ -1,8 +1,6 @@
 
-const Register = () => {
+export const Register = () => {
   return (
-    <div>Регистрация</div>
+    <div>Register</div>
   )
 }
-
-export default Register

@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './Section.css';
+import AllAuto from './allAuto/AllAuto'
+import Indicator from './indicator/Indicator'
+import YourCar from './yourCar/YourCar'
 
-// Статические данные для примера
 const carsData = {
   all: [
     { id: 1, model: 'Porsche Taycan', price: '$175,900', img: 'car1.png' },

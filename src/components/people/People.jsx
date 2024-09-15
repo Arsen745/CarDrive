@@ -6,7 +6,7 @@ import { PeopleButtons } from './peopleButtons/PeopleButtons'
 
 export const People = () => {
     return (
-        <div>
+        <div className=''>
             <Peoples />
             <div className='people-light'>
                 <div className='card-people'>
@@ -21,7 +21,6 @@ export const People = () => {
                     <TopPeoples />
                     <BottomPeople />
                 </div>
-
             </div>
             <PeopleButtons />
         </div>
