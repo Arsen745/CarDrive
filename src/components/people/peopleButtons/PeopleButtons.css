@@ -1,0 +1,38 @@
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    gap: 21px;
+}
+
+.leftbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.rightbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.btn-review {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn-rev {
+    width: 234px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #306AD9;
+}

@@ -1,17 +1,17 @@
 .foot-container {
-    display: flex;
-    padding-left: 120px;
-    margin-top: 800px;
-    padding-top: 84px;
-    padding-bottom: 150px;
-    position: relative; 
-    background: linear-gradient(270deg,  #2d3333, #00000030, #00000030, #000, #2d3333);
-    overflow: hidden;
-    
+    .cont {
+        padding-top: 84px;
+        padding-bottom: 150px;
+        position: relative; 
+        background: linear-gradient(270deg,  #2d3333, #00000030, #00000030, #000, #2d3333);
+       .cont2-text {
+        display: flex;
+        }
 
-    
+    }
+
 }
-.light1{
+/* .light1{
     width: 500px;
     height: 500px;
     position: absolute;
@@ -23,9 +23,6 @@
     overflow: hidden;
     filter: blur(50px); 
     border: 1px solid red;
-
-
-
 }
 .light2{
     width: 400px;
@@ -39,13 +36,7 @@
     filter: blur(50px); 
     border: 1px solid red;
     right: -120px;
-
-
-
-}
-
-
-
+} */
 
 .footLogo {
     display: flex;

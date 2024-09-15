@@ -4,6 +4,10 @@
     padding: 0px 30px;
     display: flex;
     gap: 70px;
+    margin-top: 57px !important;
+
+    
+
     .active {
         button {
             padding: 5px 10px;

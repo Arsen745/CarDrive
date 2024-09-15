@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../../../ui/header/Header'
 import { Footer } from '../../../ui/footer/Footer'
-import Buttons from '../../../components/buttonshome/Buttons'
+import Buttons from '../../../components/buttonshome/ButtonsH'
 import AutoImg from '../../../components/autoImg/AutoImg'
 import InforAuto from '../../../components/InforAuto/InforAuto'
 import'./Characteristics.css';
