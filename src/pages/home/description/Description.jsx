@@ -5,9 +5,7 @@ import Header from "../../../ui/header/Header"
 const Description = () => {
   return (
     <div>
-
       <Header />
-
       <Buttons />
       <h1>Баяман</h1>
       <Footer />

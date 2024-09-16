@@ -9,7 +9,7 @@ import { Footer } from '../../../ui/footer/Footer'
 
 const Characteristics = () => {
   return (
-    <div className='mashina'> 
+    <div className='mashina container'> 
       <Header/>
       <Buttons/>
       <h1 className='auto'> Audi A8-технические характеристики</h1>
