@@ -6,6 +6,7 @@ import LogoFoot from '../../../assets/svg/Logo.svg'
 export const FootLogo = () => {
     return (
         <div className='foot-container'>
+
             <div className="cont">
                 <div className="cont2-text container">
                     <div className="foot-flex">
@@ -22,10 +23,7 @@ export const FootLogo = () => {
                     <FootCompany />
                     <FootInternet />
                 </div>
-
             </div>
-
-
         </div>
     )
 }   
