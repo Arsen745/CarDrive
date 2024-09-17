@@ -6,9 +6,7 @@ const Logo = () => {
     <div>
         <div className="logo">
             <img src={LogoS} alt="" />
-            <div className="auto">
                 <h2>AUTO</h2>
-            </div>
         </div>
 
     </div>

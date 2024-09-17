@@ -12,8 +12,9 @@
 .container-baner {
     width: 100%;  
     z-index: -10;
-    margin-top: -85px;
+    margin-top: -135px;
     position: relative;
+    border: 1px solid red;
     
     
 }

@@ -3,17 +3,17 @@
     display: flex;
     gap: 7px;
     align-items: center;
+    /* border: 2px solid red; */
     img {
         width: 35px;
         height: 34px;
+        /* border: 1px solid blue; */
     }
-    .auto {
+        /* border: 1px solid red; */
         h2 {
             font-size: 27px;
             font-weight: 500;
-            color: #F1F2F3;
             font-family: "Exo", sans-serif;
 
         }
-    }
 }

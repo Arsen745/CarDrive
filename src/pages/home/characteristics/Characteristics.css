@@ -1,0 +1,8 @@
+.auto{
+   margin-top: 55px;
+}
+
+.audi{
+    display: flex;
+    gap: 1rem;    
+}
