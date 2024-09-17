@@ -7,6 +7,8 @@ import HomePage from '../../pages/home/home/HomePage'
 import Description from '../../pages/home/description/Description'
 import Characteristics from '../../pages/home/characteristics/Characteristics'
 import { CardButton } from '../../ui/cardSection/card/cardButton/CardButton'
+import Login from '../../pages/login/login'
+import Password from '../../pages/password/password'
 
 const rout = [
   {
@@ -30,11 +32,30 @@ const rout = [
     component: <Favorite/>,
     key: 'favorite'
   },
+
   {
     path: '/register',
     component: <Register/>,
     key: 'favorite'
   },
+
+   
+  {
+    path: '/Login',
+    component: <Login/>,
+    key: 'Login'
+  },
+
+  {
+    path: '/Password',
+    component: <Password/>,
+    key: 'Password'
+  },
+
+
+
+
+
   {
     path: '/home',
     component: <HomePage/>,
