@@ -2,16 +2,13 @@
     display: flex;
     justify-content: flex-start; 
     gap: 21px;
-<<<<<<< HEAD
     max-width: 100%;
-=======
-    border: 1px solid red;
+    /* border: 1px solid red; */
     overflow-x: scroll;
 
 }
 .people-light::-webkit-scrollbar {
     width: 0;
->>>>>>> 884d374d9c26da069e38e1d17a97065491740768
 }
 
 .card-people {

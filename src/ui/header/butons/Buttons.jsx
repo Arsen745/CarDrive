@@ -18,7 +18,7 @@ const Buttons = () => {
                     to={el.to}
                     className={({ isActive }) => (isActive ? 'active' : '')}
                 >
-                    <Button name={el.name} />
+                    <Button className='navbtn' name={el.name} />
                 </NavLink>
             ))}
             <NavLink to='/register'>

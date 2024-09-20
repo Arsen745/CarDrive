@@ -1,4 +1,4 @@
-.registration-container {
+.login-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,53 +6,49 @@
     height: 100vh;
     background-image: url('../../assets/png/img.png');
     background-size: cover;
-    
-}
-
-
-.infos img {
-    margin-left: 180px;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-.Registration{
+.logo-image{
+    width: 80px;
+}
+
+.login-form {
     display: flex;
     flex-direction: column;
     gap: 20px;
     background: #111120;
     padding: 40px;
     border-radius: 20px;
-   
 }
-    
 
 
-.steering {
-    margin-bottom: 130px;
-    width: 600px;
-    height: 500px;
+.logos{
+    width: 100vh;
+}
+.navigation {
     display: flex;
     flex-direction: column;
 }
-label {
-   display: flex;
-   flex-direction: column;
-    gap: 5px;
-   
-  }
 
-.imp{
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.input-field {
     width: 60vh;
 }
 
-.glasss{
+.input-container {
     display: flex;
     justify-content: space-between;
 }
-  
+
 input {
     padding: 8px;
     border-radius: 5px;
@@ -61,59 +57,49 @@ input {
     display: flex;
     background: #292E39;
 }
-  
+
 input[type="checkbox"] {
-    width: 176px;
+    /* width: 176px; */
     height: 24px;
-   }
+}
 
-.in{
-    width: 25px;
-}   
+.eye-icon {
+    /* width: 25px; */
+}
 
-.register  {
+.submit-button {
     background-color: #007bff;
     color: white;
     padding: 10px;
     border: none;
     border-radius: 5px;
-    width: 100%; 
-    max-width: 515px; 
+    /* width: 100%; */
+    max-width: 515px;
     cursor: pointer;
 }
 
-  button:hover {
+button:hover {
     background-color: #0056b3;
-  }
-  
-.remember-me {
-    display: flex;
-    align-items: center;
-    color: white;
-    margin-bottom: 20px;
-  }
-
-  .h {
-    text-align: center;
-    width: 100%; 
-    color: white; 
-    font-weight: 700;
-    font-size: 30px;
-   
 }
 
-  
-.passwords{
+.forgot-password {
     color: white;
     margin-left: 40px;
-  }
-  
-  a {
+}
+
+.title {
+    text-align: center;
+    /* width: 100%; */
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+a {
     color: #00aaff;
     text-decoration: none;
-  } 
-  
-   a:hover {
+}
+
+a:hover {
     text-decoration: underline;
-  } 
-   
+}

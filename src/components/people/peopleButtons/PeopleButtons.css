@@ -5,7 +5,7 @@
     gap: 21px;
 }
 
-.leftbtn {
+.left1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
     height: 55px;
     border-radius: 50%;
 }
-.rightbtn {
+.right1 {
     display: flex;
     justify-content: center;
     align-items: center;
