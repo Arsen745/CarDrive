@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
 import Peoples from '../../components/people/peoples/Peoples';
 import { BottomPeople } from './bottomPeople/BottomPeople';
 import { TopPeoples } from './topPeople/TopPeoples';
 import './People.css';
 import { PeopleButtons } from './peopleButtons/PeopleButtons';
+import { useRef } from 'react';
 
 export const People = () => {
     const peopleLightRef = useRef(null); 
@@ -27,7 +27,7 @@ export const People = () => {
     };
 
     return (
-        <div>
+        <div className=''>
             <Peoples />
             <div className='people-light container' ref={peopleLightRef}>
                 <div className='card-people'>

@@ -1,4 +1,4 @@
-button {
+.n-btn{
     color: #F1F2F3;
     background-color: transparent;
     border: none;
@@ -7,6 +7,6 @@ button {
     font-weight: 500;
     transition: all 0.3s;
 }
-button:hover {
+.n-btn:hover {
     color: #006AFF;
 }

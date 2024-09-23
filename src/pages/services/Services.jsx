@@ -1,7 +1,7 @@
-import React from 'react'
-import Header from '../../ui/header/Header'
+import { Header } from '../../ui/header/Header'
 
-const Services = () => {
+
+export const Services = () => {
   return (
     <div className='container'>
         <Header/>
@@ -9,5 +9,3 @@ const Services = () => {
     </div>
   )
 }
-
-export default Services

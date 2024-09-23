@@ -20,6 +20,6 @@ const Description = () => {
             <Footer/>
         </div>
     )
-}
 
-export default Description
+}
+export default Description;

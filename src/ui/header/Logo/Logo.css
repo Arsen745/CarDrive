@@ -6,21 +6,23 @@
     align-items: center;
     justify-content: center;
     
+    /* border: 2px solid red; */
     img {
         width: 35px;
         height: 34px;
+        /* border: 1px solid blue; */
     }
     .auto {
         height: 50px;        
 
+        /* border: 1px solid red; */
         h2 {
             font-size: 27px;
             font-weight: 500;
-            color: #F1F2F3;
             font-family: "Exo", sans-serif;
             margin-top: -20px;  
             
 
         }
-    }
+}
 }

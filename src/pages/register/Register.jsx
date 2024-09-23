@@ -1,6 +1,5 @@
-import { Button, Checkbox, Form, Input } from 'antd';
 import FormsRegister from '../../ui/forms-register/FormsRegister';
-import bac from '../../assets/png/bac.png'
+import bac from '../../assets/png/img.png'
 
 
 const Register = () => {

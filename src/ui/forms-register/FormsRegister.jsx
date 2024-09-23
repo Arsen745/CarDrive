@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Checkbox, Form, Input, Typography, Switch } from 'antd';
-import bac from '../../assets/png/bac.png'
 import './FormRegister.css'
 import { NavLink, useNavigate } from 'react-router-dom';
 

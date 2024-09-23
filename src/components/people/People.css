@@ -2,7 +2,8 @@
     display: flex;
     justify-content: flex-start; 
     gap: 21px;
-    border: 1px solid red;
+    max-width: 100%;
+    /* border: 1px solid red; */
     overflow-x: scroll;
 
 }
