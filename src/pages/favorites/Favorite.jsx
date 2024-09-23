@@ -8,7 +8,7 @@ import { Card } from '../../ui/cardSection/card/Card'
 
 const Favorite = () => {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <Card/>
       <Footer />

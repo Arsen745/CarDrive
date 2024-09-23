@@ -3,7 +3,7 @@ import Header from '../../ui/header/Header';
 
 const About = () => {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <h1>О нас</h1>
     </div>

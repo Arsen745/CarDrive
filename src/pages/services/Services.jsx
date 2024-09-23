@@ -3,7 +3,7 @@ import Header from '../../ui/header/Header'
 
 const Services = () => {
   return (
-    <div>
+    <div className='container'>
         <Header/>
         <h1>Услуги</h1>
     </div>
