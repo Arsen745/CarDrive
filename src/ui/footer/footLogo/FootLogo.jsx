@@ -12,9 +12,7 @@ export const FootLogo = () => {
                     <div className="foot-flex">
                         <div className="footLogo">
                             <img src={LogoFoot} alt="" />
-                            <div className="auto">
-                                <h2>AUTO</h2>
-                            </div>
+                            <h2>AUTO</h2>
                         </div>
                         <div>
                             <p className='foot-prgf'>Мы предлагаем лучшие автомобили самых известных мировых брендов.</p>

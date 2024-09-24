@@ -5,13 +5,17 @@ import { Header } from '../../ui/header/Header'
 // import { FavoriteText } from './fav-text/FavoriteText'
 import './Favorite.css'
 import { Card } from '../../ui/cardSection/card/Card'
+import Banner from '../../components/baner/Banner'
 
 
 export const Favorite = () => {
   return (
     <div>
       <Header />
-      <Card/>
+      <Banner />
+      <div className='container'>
+        <Card />
+      </div>
       <Footer />
     </div>
   )

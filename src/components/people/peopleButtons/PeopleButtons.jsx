@@ -13,8 +13,8 @@ export const PeopleButtons = ({ scrollLeft, scrollRight }) => {
                     <div className='right1'><img src={rightbtn} alt="Scroll right" /></div>
                 </button>
             </div>
-            <div className='btn-review'>
-                <button className='btn-rev'>Оставить отзыв</button>
+            <div className='btns1-review'>
+                <button className='btn1-rev'>Оставить отзыв</button>
             </div>
         </div>
     );

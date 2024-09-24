@@ -47,14 +47,13 @@
         width: 35px;
         height: 34px;
     }
-    .auto {
-        h2 {
-            font-size: 27px;
-            font-weight: 500;
-            color: #F1F2F3;
-            font-family: "Exo", sans-serif;
-        }
+    h2 {
+        font-size: 27px;
+        font-weight: 500;
+        color: #F1F2F3;
+        font-family: "Exo", sans-serif;
     }
+    
 }
 
 .foot-prgf {

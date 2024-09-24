@@ -11,48 +11,48 @@ const Register = () => {
   return (
     <div className="registration-container">
       <div className="info">
-            <img className="infos" src={Steering} alt="car" />
-           </div>
+        <img className="infos" src={Steering} alt="car" />
+      </div>
       <div className="steering">
         <div className="Registration">
-      <div className="info">
+          <div className="info">
             <img className="infos" src={arow} alt="car" />
-           </div>
-      <h2 className="h">Регистрация</h2>
+          </div>
+          <h2 className="h">Регистрация</h2>
           <label>
             ФИО*
             <input type="text" />
           </label>
 
-        
-        <label>
-        <div >
-            Email*
-          <div className="glasss">
-          <input className="imp" type="email" />
-          <img className="in" src={Eyes} alt="car" />
-          </div>
-        </div>
+
+          <label>
+            <div >
+              Email*
+              <div className="glasss">
+                <input className="imp" type="email" />
+                <img className="in" src={Eyes} alt="car" />
+              </div>
+            </div>
           </label>
 
           <label >
-           <div>
-           Пароль*
-            <div className="glasss">
-           <input className="imp" type="password" />
-            <img className="in" src={Eyes} alt="car" />
+            <div>
+              Пароль*
+              <div className="glasss">
+                <input className="imp" type="password" />
+                <img className="in" src={Eyes} alt="car" />
+              </div>
             </div>
-           </div>
           </label>
 
           <label>
-           <div>
-           Подтвердите пароль*
-            <div className="glasss">
-          <input className="imp" type="password" />
-            <img className="in" src={Eyes} alt="car" />
+            <div>
+              Подтвердите пароль*
+              <div className="glasss">
+                <input className="imp" type="password" />
+                <img className="in" src={Eyes} alt="car" />
+              </div>
             </div>
-           </div>
           </label>
 
           {/* <label className="remember-me">

@@ -2,7 +2,7 @@ import './ButtonRegister.css'
 
 const ButtonRegister = () => {
   return (
-    <button className='nam-btn'>Регистрация</button>
+    <button className='nam-btns2'>Регистрация</button>
   )
 }
 
