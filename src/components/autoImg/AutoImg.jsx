@@ -1,4 +1,3 @@
-import React from 'react';
 import './AutoImg.css';
 import audi from "../../assets/png/AUDI.png";
 

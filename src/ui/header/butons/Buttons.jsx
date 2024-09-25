@@ -16,7 +16,7 @@ const Buttons = () => {
                 <NavLink
                     key={index}
                     to={el.to}
-                    className={({ isActive }) => (isActive ? 'active' : '')}
+                    className={({ isActive }) => isActive ? "navli active" : "navli"}
                 >
                     <Button className='navbtn' name={el.name} />
                 </NavLink>

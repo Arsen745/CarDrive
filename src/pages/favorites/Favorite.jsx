@@ -13,8 +13,15 @@ export const Favorite = () => {
     <div>
       <Header />
       <Banner />
-      <div className='container'>
+      <div className='container cards-cont'>
         <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />  
       </div>
       <Footer />
     </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import "./InforAudiTwo.css"
 
 const InforAudiTwo = () => {
@@ -8,16 +7,16 @@ const InforAudiTwo = () => {
                 <div className="car-informatione">
                     <div className="car-informat">
                         <div className="car-p">
-                            <p>Кузов</p>
-                            <p>Двигатель</p>
-                            <p>Коробка передач</p>
-                            <p>Руль</p>
-                            <p>Пробег</p>
-                            <p>Цвет</p>
-                            <p>Абиом</p>
-                            <p>Состояние</p>
+                            <p>Кузов <span>Седан</span></p>
+                            <p>Двигатель <span>Электронный</span></p>
+                            <p>Коробка передач <span>Типтроник</span></p>
+                            <p>Руль <span>Слева</span></p>
+                            <p>Пробег <span>1350000 км</span></p>
+                            <p>Цвет <span>Серый</span></p>
+                            <p>Абиом <span>Серый</span></p>
+                            <p>Состояние <span>Б/у</span></p>
                         </div>
-                        <div className="car-p">
+                        {/* <div className="car-p">
                             <p>Седан</p>
                             <p>Электронный</p>
                             <p>Типтроник</p>
@@ -26,7 +25,7 @@ const InforAudiTwo = () => {
                             <p>Серый</p>
                             <p>Серый</p>
                             <p>Б/у</p>
-                        </div>
+                        </div>  */}
                     </div>
                     <div className="p">
                         <p>Компания " SILK ROAD AUTO" занимается подбором и доставкой <br/> автомобилей из России и

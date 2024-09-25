@@ -4,11 +4,12 @@
     margin-top: 25px;
     border: none;
     gap: 21px;
+    button {
+        border-radius: 50%;
+        background: transparent;
+    }
 }
 
-button {
-    border-radius: 50%;
-}
 
 .left1 {
     display: flex;
@@ -52,4 +53,11 @@ button {
     border-radius: 10px;
     background-color: #306AD9;
     border: none;
+    margin-bottom: 30px;
+    color: white;
+    transition: all 0.3s;
+}
+.btn1-rev:hover {
+    background: white;
+    color: black;
 }

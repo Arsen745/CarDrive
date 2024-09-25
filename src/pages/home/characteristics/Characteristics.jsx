@@ -9,14 +9,15 @@ import './Characteristics.css';
 
 export const Characteristics = () => {
   return (
-    <div className='mashina container'>
+    <div>
       <Header />
-      <Buttons />
-      <h1>Махабат</h1>
-      <h1 className='auto'> Audi A8-технические характеристики</h1>
-      <div className='audi'>
-        <AutoImg />
-        <InforAuto />
+      <div className="container">
+        <Buttons />
+        <h1 className='auto'> Audi A8-технические характеристики</h1>
+        <div className='audi'>
+          <AutoImg />
+          <InforAuto />
+        </div>
       </div>
       <Footer />
     </div>
