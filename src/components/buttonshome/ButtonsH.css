@@ -6,8 +6,6 @@
     gap: 70px;
     margin-top: 57px !important;
 
-    
-
     .active {
         button {
             padding: 5px 10px;
@@ -15,21 +13,22 @@
             color: white;
             background-color: #4177DC;
             transition: all 0.3s;
+            border: none;
         }
-        
     }
+
     button {
         padding: 5px 10px;
         border-radius: 8px 8px 0px 0px;
         transition: all 0.3s;
-
+        border: none;
     }
+
     button:hover {
         padding: 5px 10px;
         border-radius: 8px 8px 0px 0px;
         color: white;
         background-color: #4177DC;
         transition: all 0.3s;
-
     }
 }

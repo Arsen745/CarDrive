@@ -2,7 +2,9 @@ import React from 'react'
 
 const AdminAnnouncement = () => {
   return (
-    <div>Добавить обьявление Дайыр</div>
+    <div>
+        <h1>Дайыр</h1>
+    </div>
   )
 }
 

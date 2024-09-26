@@ -1,38 +1,41 @@
-.main{
-  display:flex;
+.main {
+  display: flex;
   margin-top: 48px;
-}
-.images{
-    width: 24px;
-    height: 18px;  
-   
-  }
-
-
-.inform{
- margin-top:160px;
-display: flex;
-
-
- }
-
-.company-details{
-margin-left: 100px;
-    
+  margin-bottom: 144px;
 }
 
-.car-infor{
+.images {
+  width: 24px;
+  height: 18px;
+}
+
+.inform {
+  margin-top: 160px;
+  display: flex;
+}
+
+.company-details {
+  margin-left: 100px;
+}
+
+.car-infor {
   display: flex;
   gap: 30px;
 }
-.car-info{
+
+.car-info {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-
-.cars{
+.cars {
   display: flex;
   gap: 100px;
+}
+
+.car-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

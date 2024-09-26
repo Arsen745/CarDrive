@@ -2,8 +2,14 @@
     display: flex;
     justify-content: center;
     margin-top: 25px;
+    border: none;
     gap: 21px;
+    button {
+        border-radius: 50%;
+        background: transparent;
+    }
 }
+
 
 .left1 {
     display: flex;
@@ -14,6 +20,17 @@
     height: 55px;
     border-radius: 50%;
 }
+
+.left1:hover {
+    border-radius: 50%;
+    background-color: darkblue  ;
+}
+
+.right1:hover {
+    border-radius: 50%;
+    background-color: darkblue  ;
+}
+
 .right1 {
     display: flex;
     justify-content: center;
@@ -24,15 +41,23 @@
     border-radius: 50%;
 }
 
-.btn-review {
+.btns1-review {
     display: flex;
     justify-content: center;
     margin-top: 30px;
 }
 
-.btn-rev {
+.btn1-rev {
     width: 234px;
     height: 42px;
     border-radius: 10px;
     background-color: #306AD9;
+    border: none;
+    margin-bottom: 30px;
+    color: white;
+    transition: all 0.3s;
+}
+.btn1-rev:hover {
+    background: white;
+    color: black;
 }

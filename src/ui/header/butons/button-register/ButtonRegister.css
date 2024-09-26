@@ -1,10 +1,14 @@
-.nam-btn {
+.nam-btns2 {
     padding: 8px 32px;
     border: 1px solid #FFFCFC;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
+    background: transparent;
+    color: white;
+    transition: all 0.3s;
 }
-.nam-btn:hover {
-    color: #FFFCFC;
+.nam-btns2:hover {
+    border: 1px solid black;
+    color: black;
 }

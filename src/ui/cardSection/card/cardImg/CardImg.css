@@ -1,6 +1,7 @@
 .card-img {
-    margin-left: 54px;
-    margin-top: 12px;
-    margin-bottom: 21px;
     border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
 }

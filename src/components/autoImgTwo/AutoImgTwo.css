@@ -1,6 +1,27 @@
 .audi-car img{
     width: 522px;
     height: 571px;
+}
+
+.audi-car {
+    margin-right: 20px;
     margin-top: 15px;
-    margin-right:20px ;
+}
+
+.small-cars {
+    img:hover {
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+    img:active {
+        border: 1px solid white;
+    }
+}
+
+.audi-cars {
+    display: flex;
+    img {
+        width: 100px;
+        height: 44px;
+    }
 }

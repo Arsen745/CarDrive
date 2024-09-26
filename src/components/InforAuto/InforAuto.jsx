@@ -1,4 +1,3 @@
-import React from "react";
 import "./InforAuto.css";
 import glass from "../../assets/svg/glass.svg";
 import com from "../../assets/svg/com.svg";

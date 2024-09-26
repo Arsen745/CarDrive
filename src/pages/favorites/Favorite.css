@@ -19,3 +19,10 @@
       height: 15px;
     }
 } */
+
+.cards-cont {
+    display: flex;
+    gap: 19.4px;
+    border: 1px solid red;
+    flex-wrap: wrap;
+}

@@ -1,11 +1,18 @@
-.navlink .active {
-    .navbtn {
-    color: #006AFF;
-    } 
-}
+
 .navlink {
     display: flex;
     gap: 50px;
     align-items: center;
     /* border: 1px solid black; */
+}
+
+.navli {
+    text-decoration: none;
+    color: black;
+}
+.navbtn {
+    padding: 10px 20px;
+    background: lightblue;
+    border-radius: 5px;
+    cursor: pointer;
 }

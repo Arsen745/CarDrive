@@ -1,5 +1,4 @@
-import React from 'react'
-import { Button, Checkbox, Form, Input, Typography, Switch } from 'antd';
+import { Button,  Input, Switch } from 'antd';
 import './FormRegister.css'
 import { NavLink, useNavigate } from 'react-router-dom';
 
@@ -58,4 +57,4 @@ const FormsRegister = () => {
     )
 }
 
-export default FormsRegister
+export default FormsRegister;
