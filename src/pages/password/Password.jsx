@@ -1,4 +1,3 @@
-import React from "react";
 import Steering from "../../assets/svg/steering.svg";
 import arrow from "../../assets/svg/arrow.svg";
 import "./Password.css";

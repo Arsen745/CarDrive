@@ -1,13 +1,11 @@
-import React from 'react';
-import Header from '../../ui/header/Header';
+import { Header } from '../../ui/header/Header';
 
-const About = () => {
+export const About = () => {
   return (
-    <div>
+    <div className='container'>
       <Header />
       <h1>О нас</h1>
     </div>
-  );
+  )
 }
 
-export default About;

@@ -1,10 +1,10 @@
-.btn {
+.nam-btn {
     padding: 8px 32px;
     border: 1px solid #FFFCFC;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
 }
-.btn:hover {
+.nam-btn:hover {
     color: #FFFCFC;
 }
