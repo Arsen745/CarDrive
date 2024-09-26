@@ -2,6 +2,7 @@ import Buttons from "../../../components/buttonshome/ButtonsH"
 import { Footer } from "../../../ui/footer/Footer"
 import Header from "../../../ui/header/Header"
 
+
 const Description = () => {
   return (
     <div>
@@ -12,5 +13,4 @@ const Description = () => {
     </div>
   )
 }
-
 export default Description

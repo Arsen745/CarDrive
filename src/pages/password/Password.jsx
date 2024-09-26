@@ -23,7 +23,6 @@ const Password = () => {
             </div>
           </div>
         </label>
-
         <button type="submit" className="continue-button">
           Продолжать
         </button>

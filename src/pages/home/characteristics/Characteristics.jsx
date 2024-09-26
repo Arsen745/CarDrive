@@ -6,7 +6,6 @@ import InforAuto from '../../../components/InforAuto/InforAuto'
 import'./Characteristics.css';
 import { Footer } from '../../../ui/footer/Footer'
 
-
 const Characteristics = () => {
   return (
     <div className='mashina container'> 

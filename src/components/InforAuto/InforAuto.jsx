@@ -3,6 +3,7 @@ import "./InforAuto.css";
 import glass from "../../assets/svg/glass.svg";
 import com from "../../assets/svg/com.svg";
 
+
 const InforAuto = () => {
   return (
     <>
@@ -33,10 +34,12 @@ const InforAuto = () => {
               <img className="images" src={com} alt=" car" />
               <p>0</p>
             </div>
-          </div>
+          </div>    
         </div>
       </div>
     </>
   );
 };
 export default InforAuto;
+
+
