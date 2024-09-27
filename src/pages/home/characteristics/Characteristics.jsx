@@ -5,12 +5,12 @@ import AutoImg from '../../../components/autoImg/AutoImg'
 import InforAuto from '../../../components/InforAuto/InforAuto'
 import './Characteristics.css';
 
-const Characteristics = () => {
+  const Characteristics = () => {
   return (
     <div className='mashina container'>
       <Header />
       <Buttons />
-      <h1>Махабат</h1>
+     
       <h1 className='auto'> Audi A8-технические характеристики</h1>
       <div className='audi'>
         <AutoImg />

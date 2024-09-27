@@ -47,7 +47,7 @@ const FormsRegister = () => {
             </div>
             <div className="nav-register" style={{ textAlign: 'center', marginTop: 20 }}>
                 <span>Вы ещё не зарегистрированы?</span>
-                <NavLink to='/' style={{ textDecoration: 'none', }}>
+                <NavLink to='/login' style={{ textDecoration: 'none', }}>
                     <span style={{ color: '#00D1FF' }}> Зарегистрировация</span>
                 </NavLink>
             </div>

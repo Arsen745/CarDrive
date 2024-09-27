@@ -1,8 +1,11 @@
 import Steering from "../../assets/svg/steering.svg";
 import arrow from "../../assets/svg/arrow.svg";
 import "./Password.css";
+import {Input} from 'antd'
+import { useNavigate } from "react-router-dom";
 
 const Password = () => {
+  const navigate = useNavigate()
   return (
     <div className="auth-container">
       <img className="brand-logo" src={Steering} alt="car" />
@@ -18,11 +21,13 @@ const Password = () => {
           <div>
             Email*
             <div className="input-wrapper">
-              <input className="text-input" type="email" />
+            <Input style={{ background: '#292E39', color: 'white' }} />
             </div>
           </div>
         </label>
-        <button type="submit" className="continue-button">
+        <button onClick={() => {
+          navigate('/passwordcode')
+        }} type="submit" className="continue-button">
           Продолжать
         </button>
       </div>
