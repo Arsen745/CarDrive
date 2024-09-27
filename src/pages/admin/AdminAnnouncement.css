@@ -1,0 +1,222 @@
+.MyAds-container{
+    width: 849px;
+    height: 995px;
+    border-radius: 4px;
+    background: rgb(11, 17, 28);
+    margin-left: 700px;
+    margin-top: 30px;
+}
+.add-ad-container{
+    border-radius: 10px;
+    width: 849px;
+    height: 83px;
+    background: rgb(7, 35, 88);
+}
+.add-ad{
+    font-family: Montserrat;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+.ZagLogoImg-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+.Zagolovok{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 50px;
+}
+.Logo-Image-container{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 3px;
+    width: 355px;
+    height: 225px;
+    background: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    padding: 84px 158px 84px 158px;
+}
+hr{
+    border: 1px solid rgba(255, 241, 241, 0.5);
+    background: rgb(217, 217, 217); 
+    width: 739px;
+    height: 0;
+    margin-left: 50px;
+}
+.add-activ{
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.inputs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.Zagolovok-input{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 345px;
+    height: 50px;
+    background: rgb(19, 19, 19);
+    /* Основной текст */
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.Opisanie-input{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 345px;
+    height: 103px;
+    background: rgb(19, 19, 19);
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+.Number-input{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 345px;
+    height: 50px;
+    background: rgb(19, 19, 19);
+    color: rgba(255, 255, 255, 0.72);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+}
+.Rasrochka-input{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 10px;
+    width: 345px;
+    height: 50px;
+    /* Основной текст */
+    color: rgb(179, 179, 179);
+    font-family: Montserrat;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 135%;
+    letter-spacing: 0%;
+    text-align: left;    
+    background: rgb(19, 19, 19);
+    margin-top: 10px;
+}
+.input-left-container{
+    box-sizing: border-box;
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 4.61px;
+    width: 356px;
+    height: 172px;
+    background: rgb(19, 19, 19);
+    margin-right: 50px;
+    margin-top: -100px;
+}
+.Download-image-button{
+    border-radius: 28.09px;
+    width: 275.19px;
+    height: 45.65px;
+    margin-left: 40.4px;
+    margin-top: 35px;
+    /* Автолейаут */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7.376286029815674;
+    padding: 10.33px 30.1px 10.33px 30.1px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(48, 106, 217);
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 18.06px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.Formats{
+    color: rgb(255, 255, 255);
+    font-family: Manrope;
+    font-size: 15.25px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 10px;
+}
+.two-buttons-container{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.back-button{
+    border-radius: 10px;
+    width: 240px;
+    height: 54px;
+    background: rgba(65, 119, 220, 0.3);
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
+.Save-and-publish-button{
+    border-radius: 10px;
+    width: 359px;
+    height: 56px;
+    background: rgb(48, 106, 217);
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    border: none;
+}
