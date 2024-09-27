@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import './Section.css';
-import AllAuto from './allAuto/AllAuto'
-import Indicator from './indicator/Indicator'
-import YourCar from './yourCar/YourCar'
+// import { AllAuto } from './allAuto/AllAuto'
+// import { Indicator } from './indicator/Indicator'
+// import { YourCar } from './yourCar/YourCar'
+import { Card } from '../cardSection/card/Card'
 
 const carsData = {
   all: [
@@ -97,6 +98,7 @@ const Section = () => {
           {getVisibleCars().map((car) => (
             <div key={car.id} className="carousel-slide">
               <img src={car.img} alt={car.model} />
+              <Card />
               <h3>{car.model}</h3>
               <p>{car.price}</p>
             </div>
@@ -115,9 +117,9 @@ const Section = () => {
         ))}
       </div>
       <div>
-        <AllAuto />
+        {/* <AllAuto />
         <YourCar />
-        <Indicator />
+        <Indicator /> */}
       </div>
     </div>);
 };

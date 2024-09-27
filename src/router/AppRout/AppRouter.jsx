@@ -35,48 +35,48 @@ const rout = [
   {
     path: '/favorite',
     component: <Favorite />,
-    key: 'favorite'
+    key: 'favorite',
   },
 
   {
     path: '/register',
     component: <Register />,
-    key: 'favorite'
+    key: 'favorite',
   },
   {
     path: '/home',
     component: <HomePage />,
-    key: 'home'
+    key: 'home',
   },
   {
     path: '/description',
     component: <Description />,
-    key: 'descriptiion'
+    key: 'descriptiion',
   },
   {
     path: '/charecteristics',
     component: <Characteristics />,
-    key: 'charecteristics'
+    key: 'charecteristics',
   },
   {
     path: '/card-button',
     component: <CardButton />,
-    key: 'cardButton'
+    key: 'cardButton',
   },
   {
     path: '/login',
     component: <SignIn/>,
-    key: 'login'
+    key: 'login',
   },
   {
     path: '/password',
     component: <Password/>,
-    key: 'password'
+    key: 'password',
   },
   {
     path: '/passwordcode',
     component: <PasswordCose/>,
-    key: 'passwordcode'
+    key: 'passwordcode',
   },
   {
     path: '/admin',
@@ -86,7 +86,7 @@ const rout = [
   {
     path: '/add-new-admin',
     component: <AddNew/>,
-    key: 'add-new-admin'
+    key: 'add-new-admin',
   },
   {
     path: '/adminannouncement',
@@ -98,7 +98,6 @@ const rout = [
     component: <AllCars/>,
     key: 'all-cars'
   }
-
 
 ]
 const AppRouter = () => {

@@ -6,6 +6,7 @@
     gap: 21px;
     button {
         border-radius: 50%;
+        border: none;
         background: transparent;
     }
 }
@@ -19,16 +20,17 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    transition: all 0.5s;
 }
 
 .left1:hover {
-    border-radius: 50%;
-    background-color: darkblue  ;
+    background-color: #306AD9;
+    border: none;
 }
 
 .right1:hover {
-    border-radius: 50%;
-    background-color: darkblue  ;
+    background-color: #306AD9;
+    border: none;
 }
 
 .right1 {
@@ -39,6 +41,7 @@
     width: 55px;
     height: 55px;
     border-radius: 50%;
+    transition: all 0.5s;
 }
 
 .btns1-review {
@@ -55,9 +58,10 @@
     border: none;
     margin-bottom: 30px;
     color: white;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .btn1-rev:hover {
-    background: white;
-    color: black;
+    border: 1px solid #306AD9;
+    background: none;
+    color: white;
 }

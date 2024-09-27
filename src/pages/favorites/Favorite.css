@@ -22,7 +22,7 @@
 
 .cards-cont {
     display: flex;
-    gap: 19.4px;
-    border: 1px solid red;
+    justify-content: space-between;
+    gap: 17px;
     flex-wrap: wrap;
 }
