@@ -1,0 +1,10 @@
+.head-all-cars {
+    /* border: 1px solid red; */
+    /* background-image: url('https://sportishka.com/uploads/posts/2022-08/1660789992_23-sportishka-com-p-marka-mashini-lamba-krasivo-foto-32.jpg'); */
+    height: 120px;
+    background-repeat: 'no-repeat';
+    background-position: 'center';
+    width: 100%;
+    background-size: 'cover';
+    bottom: 200px;
+}

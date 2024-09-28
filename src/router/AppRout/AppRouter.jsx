@@ -4,7 +4,7 @@ import { Services } from '../../pages/services/Services'
 import { Favorite } from '../../pages/favorites/Favorite'
 import  Register from '../../pages/register/Register'
 import { HomePage } from '../../pages/home/home/HomePage'
-import  Description from '../../pages/home/description/Description'
+import Description from '../../pages/home/description/Description'
 import { Characteristics } from '../../pages/home/characteristics/Characteristics'
 import { CardButton } from '../../ui/cardSection/card/cardButton/CardButton'
 import SignIn from '../../pages/register/sign-in/SignIn'
@@ -13,6 +13,7 @@ import PasswordCose from '../../pages/register/password-code/PasswordCose'
 import AdminHomePage from '../../pages/admin/AdminHomePage'
 import AddNew from '../../pages/admin/AddNew'
 import AdminAnnouncement from '../../pages/admin/AdminAnnouncement'
+import AllCars from '../../pages/all-cars/AllCars'
 
 const rout = [
   {
@@ -91,6 +92,11 @@ const rout = [
     path: '/adminannouncement',
     component: <AdminAnnouncement/>,
     key: 'adminannouncement',
+  },
+  {
+    path: '/all-cars',
+    component: <AllCars/>,
+    key: 'all-cars'
   }
 
 ]

@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import leftbtn from '../../../assets/svg/arrow-left.svg';
 import rightbtn from '../../../assets/svg/arrow-right.svg';
 import './PeopleButtons.css';
 
 export const PeopleButtons = ({ scrollLeft, scrollRight }) => {
+    const navigate = useNavigate()
     return (
         <div>
             <div className='btns'>
@@ -14,7 +16,9 @@ export const PeopleButtons = ({ scrollLeft, scrollRight }) => {
                 </button>
             </div>
             <div className='btns1-review'>
-                <button className='btn1-rev'>Оставить отзыв</button>
+                <button className='btn1-rev' onClick={() => {
+                    navigate('/all-cars')
+                }}>Оставить отзыв</button>
             </div>
         </div>
     );

@@ -1,0 +1,8 @@
+.container-allheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    /* z-index: 10000; */
+    /* border: 1px solid red; */
+}

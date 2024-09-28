@@ -1,4 +1,5 @@
 import BannerText from '../baner-text/BanerText'
+import './Baner.css'
 
 export const Baner = () => {
   return (

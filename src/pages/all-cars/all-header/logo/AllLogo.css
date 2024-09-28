@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-.logo {
+
+.allLogo {
     gap: 7px;
     display: flex;
     text-align: center;
     align-items: center;
     justify-content: center;
+
     img {
         width: 35px;
         height: 34px;
