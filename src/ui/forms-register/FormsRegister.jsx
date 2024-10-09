@@ -6,7 +6,8 @@ import { NavLink, useNavigate } from 'react-router-dom';
 const FormsRegister = () => {
     const navigate = useNavigate()
     return (
-        <div className='container' style={{ background: '#111120', width: 625, height: 658, padding: 55, borderRadius: 20, border: '1px solid red', position: 'relative' }}>
+        <div className='container' 
+        style={{ background: '#111120', width: 625, height: 658, padding: 55, borderRadius: 20, border: '1px solid red', position: 'relative' }}>
             <div onClick={() => {navigate('/')}} className="prev-icon" style={{position: 'absolute', top: 27, left: 32, cursor: 'pointer'}}>
                 <i style={{fontSize: 40, color: 'white'}} className="bi bi-arrow-left"></i>
             </div>
@@ -18,7 +19,6 @@ const FormsRegister = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     gap: 25,
-
                 }}>
                 <div className="input" style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
                     <label>ФИО*</label>
@@ -50,9 +50,6 @@ const FormsRegister = () => {
                     <span style={{ color: '#00D1FF' }}> Зарегистрировация</span>
                 </NavLink>
             </div>
-
-
-
         </div>
     )
 }

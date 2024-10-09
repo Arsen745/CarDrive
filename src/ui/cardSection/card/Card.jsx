@@ -9,7 +9,7 @@ export const Card = () => {
 
     const navigate = useNavigate();
 
-    const handleCardClick = () => {
+    const handleCardClick = () =>{
         navigate('/description')
         console.log('card');
 
